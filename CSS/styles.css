@@ -1,0 +1,789 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: OpenSans;
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url(https://github.com/Taut44/mq-diploma-taut44/fonts/OpenSans-Regular.ttf);
+  src: url(https://github.com/Taut44/mq-diploma-taut44/fonts/OpenSans-Regular.woff);
+  src: url(https://github.com/Taut44/mq-diploma-taut44/fonts/OpenSans-Regular.woff2);
+  src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
+  /* src: url(../sources/fonts/OpenSans-Regular.ttf); */
+  font-weight: 400;
+  font-style: normal; 
+}
+
+@font-face {
+  font-family: OpenSans;
+  src: url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap);
+  src: url(https://github.com/Taut44/mq-diploma-taut44/fonts/OpenSans-Bold.ttf);
+  src: url(https://github.com/Taut44/mq-diploma-taut44/fonts/OpenSans-Bold.woff);
+  src: url(https://github.com/Taut44/mq-diploma-taut44/fonts/OpenSans-Bold.woff2);
+  src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff);
+  /* src: url(../sources/fonts/OpenSans-Bold.ttf); */
+  font-weight: 700;
+  font-style: normal; 
+}
+
+
+.header {
+  position: relative;
+  background-image: url(https://raw.githubusercontent.com/Taut44/mq-diploma-taut44/master/image/football_767.jpg), url(../sources/img/football_767.jpg);
+  background-position: center; 
+  background-color: #66645e;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.header::after {
+  content: "";
+  background-color: #202346;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.header__wrapper {
+  box-sizing: border-box;
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 20px;
+  padding: 20px 0 90px;
+  z-index: 1;
+}
+
+.logo {
+  width: 40vw;
+  fill: #fff;
+}
+
+.logo:active {
+  fill: black;
+}
+
+.store__list {
+  list-style: none;
+  text-transform: uppercase;
+}
+
+.store {
+  display: flex;
+  justify-content: center;
+  width: 87.5vw;
+  height: 35px;
+  text-decoration: none;
+  background-color: #5e42b0;
+  border-radius: 25px;
+}
+
+.store:hover {
+  color: #9050AA;
+  border-color: #5e42b0;
+  background-color: #9050AA;
+}
+
+.store:active {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(255, 105, 180, 0.5),
+    0 0 0 1.5px rgba(255, 105, 180, 0.5);
+}
+
+.store__content__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40vw;
+}
+
+.store__content__wrapper-google {
+  width: 32vw;
+  justify-content: flex-start;
+}
+
+.apple__store {
+  margin-bottom: 14px;
+}
+
+.store__svg {
+  width: 8vw;
+  max-width: 32px;
+  fill: #fff;
+}
+
+.store__link {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-decoration: none;
+  margin-left: 5px;
+  font-size: 2.5vw;
+  /*letter-spacing: 0px;*/
+  color: #ffffff;
+  font-weight: 400;
+}
+
+.store__link__text__two {
+  font-weight: 700;
+}
+
+.header__title {
+  display: flex;
+  flex-direction: column;
+  font-size: calc(5.634vw + 0.625rem);
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.header-title__one {
+  margin-bottom: 30px;
+}
+
+.header-title__two {
+  margin-left: 14vw;
+}
+
+.athlets__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.athlets__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+.article {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.collaboration__content {
+    background-color: #f6f4fa;
+}
+
+.growth__content {
+  background-color: #0a0e34;
+}
+
+.athlets__growth__content {
+  background-color: #5e42b0;
+}
+
+.athlets__footballer {
+  order: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.main__title__header {
+  order: 1;
+  font-size: 50px;
+  line-height: 60px;
+  color: #e7e7e7;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+
+.athlets__content {
+  order: 3;
+}
+
+.content__header__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 60px;
+  padding-bottom: 30px;
+}
+
+.count {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #000000;
+  font-weight: 700;
+  text-align: center;
+}
+
+.count::after {
+  content: "";
+  width: 15px;
+  height: 4px;
+  border-radius: 1px;
+  background-color: #5e42b0; 
+}
+
+.third__count::after {
+  content: "";
+  width: 15px;
+  height: 4px;
+  border-radius: 1px;
+  background-color: #ffffff;
+}
+
+.content__title {
+  font-size: 23px;
+  letter-spacing: 1px;
+  color: #c1c1c1;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-left: 9px;
+}
+
+.content__text {
+  font-size: 15px;
+  color: #000000;
+  font-weight: 700;
+  padding-bottom: 55px;
+}
+
+.players__wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.players__basketballer {
+  order: 2;
+  display: flex;
+  justify-content: center;
+  padding: 0 20px;
+}
+
+.players__content {
+  order: 3;
+}
+
+.players__growth__article {
+  background-color: #090c35;
+}
+
+.players__third__count {
+  color: #8765dd;
+}
+
+.players__content__text {
+  color: #ffffff;
+}
+
+.find-contact__wrapper {
+  position: relative;
+}
+
+.main-section__picture {
+  width: 100%;
+}
+
+.filler__wrapper {
+  position: relative;
+  padding: 12.5vw 20px 80px; 
+}
+
+.countbox {
+    position: absolute;
+    padding-left: 20px;
+  }
+
+.count-box__count {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  font-size: 14px;
+  letter-spacing: 1px;
+  color: #f5f6f7;
+  font-weight: 700;
+  text-align: center;
+  z-index: 1;
+  padding-left: 27px;
+  top: 0;
+  /*bottom: 250px;*/
+}
+
+
+
+.count-box__count::before {
+  content: "";
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  background-color: #5e42b0;
+  z-index: -1;
+}
+
+.count-box__count::after {
+  content: "";
+  width: 15px;
+  height: 4px;
+  border-radius: 1px;
+  background-color: #ffffff;
+}
+
+.main-section__title {
+  font-size: 8.75vw;
+  letter-spacing: 1px;
+  color: #e7e7e7;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-bottom: 20px;
+}
+
+.main-section__text {
+  font-size: 16px;
+  color: #000000;
+  font-weight: 700;
+}
+
+.footer {
+  position: relative;
+  background-image: url(https://raw.githubusercontent.com/Taut44/mq-diploma-taut44/master/image/game_767.jpg), url(../sources/img/game_767.jpg);
+  background-position: center center; 
+  background-color: #66645e;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+
+.footer::after {
+  content: "";
+  background-color: #202346;
+  opacity: 0.9;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.footer__header {
+  box-sizing: border-box;
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+}
+
+.footer__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 100px 0 10px;
+  margin: 0 20px;
+  height: 100%;
+}
+
+.footer__title {
+  font-size: 10vw;
+  color: #ffffff;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.footer__subtitle {
+  font-size: 4.375vw;
+  letter-spacing: 1px;
+  color: #9b8ec1;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.logo__icon {
+  width: 22vw;
+  height: 22vw;
+  background-image: linear-gradient(140deg, #f9c53d 5%, #f9431b 35%, #3782dd 65%, #62d7a0 95%);;
+  border-radius: 25%;
+}
+
+@media (min-width: 641px) and (max-width: 960px) {
+  
+  .header {
+  background-image: url(https://raw.githubusercontent.com/Taut44/mq-diploma-taut44/master/image/football_1280.jpg);
+  }
+  
+  .store__list {
+    display: flex;
+  }
+  
+  .store {
+    width: 40.5vw;
+    height: 77px;
+    border-radius: 38px;
+    filter: drop-shadow(8px 13.856px 12px #0a0e34);
+    background-color: #5e42b0;
+  }
+  
+  .store__svg {
+    max-width: 48px;
+  }
+  
+  .apple__store {
+    margin-bottom: 0;
+    margin-right: 30px;
+  }
+  
+  .store__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 25px;
+  }
+  
+  .store__content__wrapper {
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+  }
+  
+  .athlets__wrapper {
+    padding-top: 90px;
+  }
+  
+  .main__title__header {
+    font-size: 80px;
+  }
+  
+  .content-section__img {
+    position: absolute;
+    padding: 0;
+  }
+  
+  .count {
+    font-size: 18px;
+  }
+
+  .count::after {
+    content: "";
+    width: 19px;
+   }
+  
+  .content__title {
+    font-size: 32px;
+  }
+  
+  .content__text {
+    font-size: 16px;
+  }
+  
+  .players__basketballer {
+    right: 0;
+  }
+  
+  .athlets__footballer {
+    left: -150px;
+  }
+  
+  .athlets__header {
+    padding-left: 290px;
+  }
+  
+  .athlets__header__wrapper {
+    padding-left: 290px;
+  }
+  
+  .athlets__text {
+    padding-left: 290px;
+  }
+  
+  .players__basketballer {
+    padding-top: 50px;
+  }
+  
+  .players__header {
+    padding-top: 85px;
+  }
+  
+  .players__text {
+    padding-right: 340px;
+  }
+  
+  .main-section__text {
+    font-size: 24px;
+    font-weight: 400;
+  }
+  
+  .count-box__count {
+    font-size: 24px;
+    letter-spacing: 1px;
+    color: #f5f6f7;
+    font-weight: 700;
+    text-align: center;
+    z-index: 1;
+    padding-left: 47px;
+    top: 0;
+    /*bottom: 250px;*/
+  }
+
+
+
+  .count-box__count::before {
+    content: "";
+    position: absolute;
+    width: 116px;
+    height: 116px;
+    background-color: #5e42b0;
+    z-index: -1;
+  }
+
+  .count-box__count::after {
+    content: "";
+    width: 28px;
+    height: 5px;
+    border-radius: 2px;
+    background-color: #ffffff;
+  }
+}
+
+@media (min-width: 961px) and (max-width: 1920px) {
+  
+  .header {
+    background-image: url(https://raw.githubusercontent.com/Taut44/mq-diploma-taut44/master/image/football_1920.jpg), url(../sources/img/football_1920.jpg);
+  }
+  
+  .logo {
+    width: 10vw;
+  }
+  
+  .header__title {
+    font-size: calc(2.7vw + 2.375rem);
+  }
+  
+  .store__list {
+    display: flex;
+    flex-shrink: 0;
+  }
+  
+  .store {
+    width: 16vw;
+    height: 77px;
+    border-radius: 38px;
+    filter: drop-shadow(8px 13.856px 12px #0a0e34);
+    background-color: #5e42b0;
+    flex-shrink: 0;
+  }
+  
+  .store__svg {
+    max-width: 48px;
+  }
+  
+  .apple__store {
+    margin-bottom: 0;
+    margin-right: 30px;
+  }
+  
+  .store__link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size: 14px;
+    margin-left: 25px;
+    flex-shrink: 0;
+  }
+  
+  .store__content__wrapper {
+    display: flex;
+    justify-content: center;
+    width: 40vw;
+    flex-shrink: 0;
+  }
+  
+  .main__title__header {
+    font-size: 80px;
+  }
+  
+  .athlets__header {
+    padding-top: 115px;
+  }
+  
+  .athlets__collaboration__content {
+    background-color: #f6f4fa;
+    display: flex;
+/*     align-items: flex-end; */
+  }
+  
+  .athlets__collaboration__content:before {
+    content: '';
+    background-color: #f6f4fa;
+    width: 100vw;
+    background-size: cover;
+  }
+  
+  .athlets__growth__content {
+    display: flex; 
+    background-color: #5e42b0;
+  }
+  
+  .athlets__growth__content:before {
+    content: '';
+    background-color: #5e42b0;
+    width: 100vw;
+    background-size: cover;
+  }
+  
+  .content-section__img {
+    position: absolute;
+    padding-top: 0;
+  }
+  
+  .count {
+    font-size: 18px;
+  }
+
+  .count::after {
+    content: "";
+    width: 19px;
+   }
+  
+  .content__title {
+    font-size: 32px;
+  }
+  
+  .content__text {
+    font-size: 16px;
+  }
+  
+  .players__basketballer {
+    right: 0;
+/*     margin-top: 30px; */
+  }
+  
+  .players__article {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  
+  .players__header {
+    padding-top: 115px;
+  }
+  
+  .players__text {
+    width: 40vw;
+    padding-right: 340px;
+  }
+  
+  .athlets__wrapper {
+    position: relative;
+  }
+  
+  .athlets__footballer {
+    position: absolute;
+    right: 0;
+    padding-right: 45vw;
+    margin-top: 30px;
+  }
+  
+  .athlets__header{
+    margin-left: 58.5vw;
+  }
+
+  .athlets__content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+  }
+
+  .content__header__wrapper{
+    display: flex;
+  }
+  
+  .content-section__img {
+    padding-top: 0;
+  }
+  
+  .athlets__text {
+    display: block;
+    width: 39vw;
+  }
+  
+  .main-section__wrapper {
+    display: flex;
+    position: relative;
+    padding-top: 0;
+  }
+  
+  .find-contact__wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  
+  .main-section__picture {
+    width: 50vw;
+  }
+  
+  .filler__wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -5rem;
+    padding: 0;
+    width: 50vw;
+  }
+  
+  .filler-content__wrapper {
+    width: 35vw;
+  }
+  
+  .countbox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -55px;
+    margin-left: -55px;
+  }
+  
+  .main-section__title {
+    font-size: 4rem;
+  }
+  
+  .main-section__text{
+    font-size: 1.5rem;
+    font-weight: 400;
+  }
+  
+  .footer__wrapper {
+    position: relative;
+  }
+  
+  .footer__title {
+    font-size: 5rem;
+  }
+  
+  .footer__subtitle {
+    font-size: 2rem;
+  }
+  
+  .logo__icon {
+/*     position: absolute;
+    top: 26%;
+    left: -20%; */
+    width: 7vw;
+    height: 7vw;
+  }
+}
+  
