@@ -5,13 +5,14 @@
 
 body {
   font-family: OpenSans;
+  min-width: 320px;
 }
 
 @font-face {
   font-family: OpenSans;
-  src: url(https://github.com/Taut44/mq-diploma-taut/fonts/OpenSans-Regular.ttf);
-  src: url(https://github.com/Taut44/mq-diploma-taut/fonts/OpenSans-Regular.woff);
-  src: url(https://github.com/Taut44/mq-diploma-taut/fonts/OpenSans-Regular.woff2);
+  src: url(https://github.com/Taut44/mq-diploma-taut44/fonts/OpenSans-Regular.ttf);
+  src: url(https://github.com/Taut44/mq-diploma-taut44/fonts/OpenSans-Regular.woff);
+  src: url(https://github.com/Taut44/mq-diploma-taut44/fonts/OpenSans-Regular.woff2);
   src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Regular.woff);
   /* src: url(../sources/fonts/OpenSans-Regular.ttf); */
   font-weight: 400;
@@ -21,9 +22,9 @@ body {
 @font-face {
   font-family: OpenSans;
   src: url(https://fonts.googleapis.com/css?family=Open+Sans&display=swap);
-  src: url(https://github.com/Taut44/mq-diploma-taut/fonts/OpenSans-Bold.ttf);
-  src: url(https://github.com/Taut44/mq-diploma-taut/fonts/OpenSans-Bold.woff);
-  src: url(https://github.com/Taut44/mq-diploma-taut/fonts/OpenSans-Bold.woff2);
+  src: url(https://github.com/Taut44/mq-diploma-taut44/fonts/OpenSans-Bold.ttf);
+  src: url(https://github.com/Taut44/mq-diploma-taut44/fonts/OpenSans-Bold.woff);
+  src: url(https://github.com/Taut44/mq-diploma-taut44/fonts/OpenSans-Bold.woff2);
   src: url(https://netology-code.github.io/html-2-diploma/sources/fonts/OpenSans-Bold.woff);
   /* src: url(../sources/fonts/OpenSans-Bold.ttf); */
   font-weight: 700;
@@ -33,12 +34,12 @@ body {
 
 .header {
   position: relative;
-  background-image: url(https://raw.githubusercontent.com/Taut44/mq-diploma-taut/master/img/football_767.jpg), url(../sources/img/football_767.jpg);
+  background-image: url(https://raw.githubusercontent.com/Taut44/mq-diploma-taut44/master/image/football_767.jpg), url(../sources/img/football_767.jpg);
   background-position: center; 
   background-color: #66645e;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .header::after {
@@ -105,7 +106,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 40vw;
+  /* width: 40vw; */
 }
 
 .store__content__wrapper-google {
@@ -175,7 +176,7 @@ body {
 }
 
 .collaboration__content {
-    background-color: #f6f4fa;
+  background-color: #f6f4fa;
 }
 
 .growth__content {
@@ -357,12 +358,12 @@ body {
 
 .footer {
   position: relative;
-  background-image: url(https://raw.githubusercontent.com/Taut44/mq-diploma-taut/master/img/game_767.jpg), url(../sources/img/game_767.jpg);
+  background-image: url(https://raw.githubusercontent.com/Taut44/mq-diploma-taut44/master/image/game_767.jpg), url(../sources/img/game_767.jpg);
   background-position: center center; 
   background-color: #66645e;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .footer::after {
@@ -422,7 +423,7 @@ body {
 @media (min-width: 641px) and (max-width: 960px) {
   
   .header {
-  background-image: url(https://raw.githubusercontent.com/Taut44/mq-diploma-taut/master/img/football_1280.jpg);
+  background-image: url(https://raw.githubusercontent.com/Taut44/mq-diploma-taut44/master/image/football_1280.jpg);
   }
   
   .store__list {
@@ -456,7 +457,7 @@ body {
   .store__content__wrapper {
     display: flex;
     justify-content: center;
-    width: 40vw;
+    /* width: 40vw; */
   }
   
   .athlets__wrapper {
@@ -556,16 +557,12 @@ body {
     border-radius: 2px;
     background-color: #ffffff;
   }
-  
-  .footer {
-    background-image: url(https://raw.githubusercontent.com/Taut44/mq-diploma-taut/master/img/game_1280.jpg);
-  }
 }
 
 @media (min-width: 961px) and (max-width: 1920px) {
   
   .header {
-    background-image: url(https://raw.githubusercontent.com/Taut44/mq-diploma-taut/master/img/football_1920.jpg), url(../sources/img/football_1920.jpg);
+    background-image: url(https://raw.githubusercontent.com/Taut44/mq-diploma-taut44/master/image/football_1920.jpg), url(../sources/img/football_1920.jpg);
   }
   
   .logo {
@@ -611,7 +608,7 @@ body {
   .store__content__wrapper {
     display: flex;
     justify-content: center;
-    width: 40vw;
+    /* width: 40vw; */
     flex-shrink: 0;
   }
   
@@ -768,10 +765,6 @@ body {
   .main-section__text{
     font-size: 1.5rem;
     font-weight: 400;
-  }
-  
-  .footer {
-    background-image: url(https://raw.githubusercontent.com/Taut44/mq-diploma-taut/master/img/game_1920.jpg);
   }
   
   .footer__wrapper {
