@@ -39,7 +39,7 @@ body {
   background-color: #66645e;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .header::after {
@@ -56,7 +56,7 @@ body {
 .header__wrapper {
   box-sizing: border-box;
   position: relative;
-  height: 100%;
+  min-height: inherit;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -365,7 +365,7 @@ body {
   background-color: #66645e;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .footer::after {
@@ -382,7 +382,7 @@ body {
 .footer__header {
   box-sizing: border-box;
   position: relative;
-  height: 100%;
+  min-height: inherit;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -397,7 +397,7 @@ body {
   align-items: center;
   padding: 100px 0 10px;
   margin: 0 20px;
-  height: 100%;
+  min-height: inherit;
 }
 
 .footer__title {
