@@ -363,7 +363,7 @@ body {
   background-color: #66645e;
   background-repeat: no-repeat;
   background-size: cover;
-  min-height: 100vh;
+  height: 100vh;
 }
 
 .footer::after {
