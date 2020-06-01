@@ -151,10 +151,12 @@ body {
 
 .header-title__one {
   margin-bottom: 30px;
+  font-size: calc(5.634vw + 0.625rem);
 }
 
 .header-title__two {
   margin-left: 14vw;
+  font-size: calc(5.634vw + 0.625rem);
 }
 
 .athlets__wrapper {
