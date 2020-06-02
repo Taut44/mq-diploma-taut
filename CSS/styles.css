@@ -562,7 +562,7 @@ body {
 @media (min-width: 961px) and (max-width: 1920px) {
   
   .header {
-    background-image: url(https://raw.githubusercontent.com/Taut44/mq-diploma-taut/master/img/football_1920.jpg), url(../sources/img/football_1920.jpg);
+    background-image: url(img/football_1920.jpg);
   }
   
   .logo {
