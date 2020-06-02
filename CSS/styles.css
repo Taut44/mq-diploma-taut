@@ -14,7 +14,7 @@ body {
   src: url(../fonts/OpenSans-Regular.woff);
   src: url(../fonts/OpenSans-Regular.woff2);
   font-weight: 400;
-  font-style: normal; 
+  font-style: normal;
 }
 
 @font-face {
@@ -23,14 +23,13 @@ body {
   src: url(../fonts/OpenSans-Bold.woff);
   src: url(../fonts/OpenSans-Bold.woff2);
   font-weight: 700;
-  font-style: normal; 
+  font-style: normal;
 }
-
 
 .header {
   position: relative;
   background-image: url(../img/football_767.jpg);
-  background-position: center; 
+  background-position: center;
   background-color: #66645e;
   background-repeat: no-repeat;
   background-size: cover;
@@ -86,15 +85,14 @@ body {
 }
 
 .store:hover {
-  color: #9050AA;
+  color: #9050aa;
   border-color: #5e42b0;
-  background-color: #9050AA;
+  background-color: #9050aa;
 }
 
 .store:active {
   outline: none;
-  box-shadow: 0 0 0 3px rgba(255, 105, 180, 0.5),
-    0 0 0 1.5px rgba(255, 105, 180, 0.5);
+  box-shadow: 0 0 0 3px rgba(255, 105, 180, 0.5), 0 0 0 1.5px rgba(255, 105, 180, 0.5);
 }
 
 .store__content__wrapper {
@@ -232,7 +230,7 @@ body {
   width: 15px;
   height: 4px;
   border-radius: 1px;
-  background-color: #5e42b0; 
+  background-color: #5e42b0;
 }
 
 .third__count::after {
@@ -298,13 +296,13 @@ body {
 
 .filler__wrapper {
   position: relative;
-  padding: 12.5vw 20px 80px; 
+  padding: 12.5vw 20px 80px;
 }
 
 .countbox {
-    position: absolute;
-    padding-left: 20px;
-  }
+  position: absolute;
+  padding-left: 20px;
+}
 
 .count-box__count {
   display: flex;
@@ -322,8 +320,6 @@ body {
   top: 0;
   /*bottom: 250px;*/
 }
-
-
 
 .count-box__count::before {
   content: "";
@@ -365,7 +361,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-image: url(../sources/img/game_767.jpg);
-  background-position: center center; 
+  background-position: center center;
   background-color: #66645e;
   background-repeat: no-repeat;
   background-size: cover;
@@ -411,21 +407,20 @@ body {
 .logo__icon {
   width: 22vw;
   height: 22vw;
-  background-image: linear-gradient(140deg, #f9c53d 5%, #f9431b 35%, #3782dd 65%, #62d7a0 95%);;
+  background-image: linear-gradient(140deg, #f9c53d 5%, #f9431b 35%, #3782dd 65%, #62d7a0 95%);
   border-radius: 25%;
   margin-top: 100px;
 }
 
 @media (min-width: 641px) and (max-width: 960px) {
-  
   .header {
-  background-image: url(../img/football_1280.jpg);
+    background-image: url(../img/football_1280.jpg);
   }
-  
+
   .store__list {
     display: flex;
   }
-  
+
   .store {
     width: 40.5vw;
     height: 77px;
@@ -433,42 +428,42 @@ body {
     filter: drop-shadow(8px 13.856px 12px #0a0e34);
     background-color: #5e42b0;
   }
-  
+
   .store__svg {
     max-width: 48px;
   }
-  
+
   .apple__store {
     margin-bottom: 0;
     margin-right: 30px;
   }
-  
+
   .store__link {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 25px;
   }
-  
+
   .store__content__wrapper {
     display: flex;
     justify-content: center;
     /* width: 40vw; */
   }
-  
+
   .athlets__wrapper {
     padding-top: 90px;
   }
-  
+
   .main__title__header {
     font-size: 80px;
   }
-  
+
   .content-section__img {
     position: absolute;
     padding: 0;
   }
-  
+
   .count {
     font-size: 18px;
   }
@@ -476,53 +471,53 @@ body {
   .count::after {
     content: "";
     width: 19px;
-   }
-  
+  }
+
   .content__title {
     font-size: 32px;
   }
-  
+
   .content__text {
     font-size: 16px;
   }
-  
+
   .players__basketballer {
     right: 0;
   }
-  
+
   .athlets__footballer {
     left: -150px;
   }
-  
+
   .athlets__header {
     padding-left: 290px;
   }
-  
+
   .athlets__header__wrapper {
     padding-left: 290px;
   }
-  
+
   .athlets__text {
     padding-left: 290px;
   }
-  
+
   .players__basketballer {
     padding-top: 50px;
   }
-  
+
   .players__header {
     padding-top: 85px;
   }
-  
+
   .players__text {
     padding-right: 340px;
   }
-  
+
   .main-section__text {
     font-size: 24px;
     font-weight: 400;
   }
-  
+
   .count-box__count {
     font-size: 24px;
     letter-spacing: 1px;
@@ -534,8 +529,6 @@ body {
     top: 0;
     /*bottom: 250px;*/
   }
-
-
 
   .count-box__count::before {
     content: "";
@@ -560,24 +553,23 @@ body {
 }
 
 @media (min-width: 961px) and (max-width: 1920px) {
-  
   .header {
     background-image: url(../img/football_1920.jpg);
   }
-  
+
   .logo {
     width: 10vw;
   }
-  
+
   .header__title {
     font-size: calc(2.7vw + 2.375rem);
   }
-  
+
   .store__list {
     display: flex;
     flex-shrink: 0;
   }
-  
+
   .store {
     width: 16vw;
     height: 77px;
@@ -586,16 +578,16 @@ body {
     background-color: #5e42b0;
     flex-shrink: 0;
   }
-  
+
   .store__svg {
     max-width: 48px;
   }
-  
+
   .apple__store {
     margin-bottom: 0;
     margin-right: 30px;
   }
-  
+
   .store__link {
     display: flex;
     flex-direction: column;
@@ -604,14 +596,14 @@ body {
     margin-left: 25px;
     flex-shrink: 0;
   }
-  
+
   .store__content__wrapper {
     display: flex;
     justify-content: center;
     /* width: 40vw; */
     flex-shrink: 0;
   }
-  
+
   .main__title__header {
     font-size: 80px;
   }
@@ -619,37 +611,37 @@ body {
   .athlets__wrapper {
     padding-top: 115px;
   }
-  
+
   .athlets__collaboration__content {
     background-color: #f6f4fa;
     display: flex;
-/*     align-items: flex-end; */
+    /*     align-items: flex-end; */
   }
-  
+
   .athlets__collaboration__content:before {
     content: '';
     background-color: #f6f4fa;
     width: 100vw;
     background-size: cover;
   }
-  
+
   .athlets__growth__content {
-    display: flex; 
+    display: flex;
     background-color: #5e42b0;
   }
-  
+
   .athlets__growth__content:before {
     content: '';
     background-color: #5e42b0;
     width: 100vw;
     background-size: cover;
   }
-  
+
   .content-section__img {
     position: absolute;
     padding-top: 0;
   }
-  
+
   .count {
     font-size: 18px;
   }
@@ -657,48 +649,48 @@ body {
   .count::after {
     content: "";
     width: 19px;
-   }
-  
+  }
+
   .content__title {
     font-size: 32px;
   }
-  
+
   .content__text {
     font-size: 16px;
   }
-  
+
   .players__basketballer {
     right: 0;
-/*     margin-top: 30px; */
+    /*     margin-top: 30px; */
   }
-  
+
   .players__article {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
   }
-  
+
   .players__header {
     padding-top: 115px;
   }
-  
+
   .players__text {
     width: 40vw;
     padding-right: 340px;
   }
-  
+
   .athlets__wrapper {
     position: relative;
   }
-  
+
   .athlets__footballer {
     position: absolute;
     right: 0;
     right: 45vw;
     top: 30px;
   }
-  
-  .athlets__header{
+
+  .athlets__header {
     margin-left: 58.5vw;
   }
 
@@ -708,36 +700,36 @@ body {
     align-items: flex-end;
   }
 
-  .content__header__wrapper{
+  .content__header__wrapper {
     display: flex;
   }
-  
+
   .content-section__img {
     padding-top: 0;
   }
-  
+
   .athlets__text {
     display: block;
     width: 39vw;
   }
-  
+
   .main-section__wrapper {
     display: flex;
     position: relative;
     padding-top: 0;
   }
-  
+
   .find-contact__wrapper {
     position: relative;
     display: flex;
     flex-direction: row-reverse;
   }
-  
+
   .main-section__picture {
     display: block;
     width: 50vw;
   }
-  
+
   .filler__wrapper {
     display: flex;
     justify-content: center;
@@ -745,11 +737,11 @@ body {
     padding: 0;
     width: 50vw;
   }
-  
+
   .filler-content__wrapper {
     width: 35vw;
   }
-  
+
   .countbox {
     position: absolute;
     top: 50%;
@@ -757,12 +749,12 @@ body {
     margin-top: -25px;
     margin-left: -55px;
   }
-  
+
   .main-section__title {
     font-size: 4rem;
   }
-  
-  .main-section__text{
+
+  .main-section__text {
     font-size: 1.5rem;
     font-weight: 400;
   }
@@ -770,21 +762,21 @@ body {
   .footer {
     background-image: url(../img/game_1920.jpg);
   }
-  
+
   .footer__wrapper {
     position: relative;
   }
-  
+
   .footer__title {
     font-size: 5rem;
   }
-  
+
   .footer__subtitle {
     font-size: 2rem;
   }
-  
+
   .logo__icon {
-/*     position: absolute;
+    /*     position: absolute;
     top: 26%;
     left: -20%; */
     width: 7vw;
